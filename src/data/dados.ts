@@ -37,7 +37,7 @@
         tipo: "native",
         url : "https://github.com/Adriano2607/AppTarefas",
         thumb : native,
-        descricao:  "O Aplicativo de Gestão de Tarefas é um aplicativo móvel desenvolvido com React Native, projetado para ajudar usuários a gerenciar suas tarefas diárias de maneira eficiente. O aplicativo permite aos usuários criar, visualizar, editar e excluir tarefas, e organiza essas tarefas em diferentes categorias."
+        descricao:  "O Aplicativo de Gestão de Tarefas é um aplicativo móvel desenvolvido com React Native. O aplicativo permite aos usuários criar, visualizar, editar e excluir tarefas, e organiza essas tarefas em diferentes categorias."
     },
     {
         id: 5,

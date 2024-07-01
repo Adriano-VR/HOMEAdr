@@ -14,9 +14,9 @@ type LanguageSelectorProps = {
 export const MenuBar: React.FC<LanguageSelectorProps> = ({ changeLanguage,selectedLanguage  }) => {
  
     return (
-            <div className="bg-[#363636] fixed left-2/4 bottom-5 transform -translate-x-2/4 p-4 rounded-lg text-zinc-300    ">
+            <div className="bg-[#363636] fixed left-[5%]   md:left-2/4 md:bottom-5 md:transform md:-translate-x-2/4 p-4 rounded-lg text-zinc-300    ">
                 <nav>
-                    <ul className="flex gap-5">
+                    <ul className="gap-3   flex flex-col md:flex-row">
                             <li onClick={() => changeLanguage('react')}
                                 className={`h-9 cursor-pointer ${selectedLanguage === 'react' && 'border-b-2 border-[#00CCFF]' }`}
 
@@ -66,15 +66,15 @@ export const MenuBar: React.FC<LanguageSelectorProps> = ({ changeLanguage,select
                                 </IconContext.Provider>
                             </li>
 
-                            <li className="border-l-2"></li>
+                            <li className="hidden md:border"></li>
 
 
                             <li className="cursor-pointer"
                              data-tooltip-id="git"
                              data-tooltip-content="GitHub"
                              data-tooltip-place="top">
-                                <a href="https://github.com/Adriano2607" target="_blank">
-                                <img src={git} alt="" className="size-[2em]" />
+                                <a href="https://github.com/Adriano2607" target="_blank" rel="noopener noreferrer">
+                                <img src={git} alt="" className=" size-[2em]" />
                                 <Tooltip id="git" />
                                 </a>
                             </li>
