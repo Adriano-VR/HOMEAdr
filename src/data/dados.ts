@@ -46,6 +46,13 @@
         thumb : native,
         descricao:  "O Aplicativo de E-Commerce é uma aplicação móvel desenvolvida com React Native que simula uma plataforma de compras online. O aplicativo permite aos usuários navegar por produtos, adicionar itens ao carrinho de compras, remover produtos do carrinho e realizar a compra."
     },
+    {
+        id: 6,
+        tipo: "react",
+        url : "https://cine-finder-lemon.vercel.app/filmes",
+        thumb : logo,
+        descricao:  "Usa TMDB API."
+    },
 
 ]
 

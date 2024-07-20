@@ -14,7 +14,7 @@ type LanguageSelectorProps = {
 export const MenuBar: React.FC<LanguageSelectorProps> = ({ changeLanguage,selectedLanguage  }) => {
  
     return (
-            <div className="bg-[#363636] fixed left-[5%]   md:left-2/4 md:bottom-5 md:transform md:-translate-x-2/4 p-4 rounded-lg text-zinc-300    ">
+            <div className="bg-[#363636] fixed left-[5%]  md:left-2/4 md:bottom-5 md:transform md:-translate-x-2/4 p-4 rounded-lg text-zinc-300    ">
                 <nav>
                     <ul className="gap-3   flex flex-col md:flex-row">
                             <li onClick={() => changeLanguage('react')}
@@ -73,7 +73,7 @@ export const MenuBar: React.FC<LanguageSelectorProps> = ({ changeLanguage,select
                              data-tooltip-id="git"
                              data-tooltip-content="GitHub"
                              data-tooltip-place="top">
-                                <a href="https://github.com/Adriano2607" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/Adriano-VR" target="_blank" rel="noopener noreferrer">
                                 <img src={git} alt="" className=" size-[2em]" />
                                 <Tooltip id="git" />
                                 </a>

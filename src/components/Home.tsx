@@ -31,9 +31,9 @@ const Home = () => {
                             {dados.filter((a) => a.tipo.includes(language)).map((dados) => (
                                 <div key={dados.id} className="  w-11/12 items-center p-5 flex flex-col md:w-[25vw] md:h-[55vh] border rounded md:p-5 ">
                                     <img src={dados.thumb} alt="" className="size-60 mb-5" />
-                                    <div className="flex flex-col justify-center md:justify-between md:h-full  text-justify gap-5">
+                                    <div className="flex flex-col w-full justify-center md:justify-between md:h-full  text-justify gap-5">
                                         <h2>{dados.descricao}</h2>
-                                        <a href={dados.url} target="_blank" className="text-center bg-[#363636] rounded p-2">Acessar</a>
+                                        <a href={dados.url} target="_blank" className="text-center w-full bg-[#363636] rounded p-2">Acessar</a>
                                     </div>
                                 </div>
                             ))}
