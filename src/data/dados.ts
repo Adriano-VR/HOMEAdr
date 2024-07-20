@@ -14,7 +14,7 @@
     {
         id: 1,
         tipo: "react",
-        url : "https://react-free-games-hub.vercel.app/",
+        url : "https://free-games-lovat.vercel.app/",
         thumb : logo,
         descricao: "Ele faz uso de APIs do Tailwind CSS, Firebase para autenticação, cadastro de usuário e salvamento de jogos favoritos do usuário logado, além de ter funcionalidades de filtros e pesquisa."
     },
