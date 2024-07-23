@@ -2,7 +2,8 @@ import { FaReact } from "react-icons/fa";
 import { IconContext } from "react-icons";
 import { FaHtml5 } from "react-icons/fa";
 import { TbBrandReactNative } from "react-icons/tb";
-import { DiSqllite } from "react-icons/di";
+import { RiVuejsLine } from "react-icons/ri";
+
 import { Tooltip } from 'react-tooltip'
 import git from "../assets/github.png";
 
@@ -55,14 +56,14 @@ export const MenuBar: React.FC<LanguageSelectorProps> = ({ changeLanguage,select
                                 </IconContext.Provider>
                             </li>
 
-                            <li onClick={() => changeLanguage('lite')}
+                            <li onClick={() => changeLanguage('vue')}
                              className="cursor-pointer"
-                            data-tooltip-id="lite"
-                             data-tooltip-content="SQLLite"
+                            data-tooltip-id="vue"
+                             data-tooltip-content="Vue"
                              data-tooltip-place="top">
                                 <IconContext.Provider value={{color:'#F5B061', size:"2em" }}>
-                                <DiSqllite />
-                                <Tooltip id="lite" />
+                                <RiVuejsLine />
+                                <Tooltip id="vue" />
                                 </IconContext.Provider>
                             </li>
 

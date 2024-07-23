@@ -1,6 +1,8 @@
    import logo from "../assets/react-logo-1.png";
    import html from "../assets/html.png";
    import native from "../assets/native.png";
+   import Vue from "../assets/vue.png"
+   
    interface props {
         id: number;
         tipo:string;
@@ -51,7 +53,14 @@
         tipo: "react",
         url : "https://cine-finder-lemon.vercel.app/filmes",
         thumb : logo,
-        descricao:  "Usa TMDB API."
+        descricao:  "CineFinder é uma plataforma intuitiva e interativa dedicada à busca e descoberta de filmes e séries, alimentada pela poderosa API do TMDb (The Movie Database). Desenvolvido com React e JavaScript, tecnologias usadas, Fetch API, React Components, React Lazy e Suspense e React Router."
+    },
+     {
+        id: 7 ,
+        tipo: "vue",
+        url : "https://taskmanager-ebon.vercel.app/",
+        thumb : Vue,
+        descricao:  "Task Manager com Vue."
     },
 
 ]
