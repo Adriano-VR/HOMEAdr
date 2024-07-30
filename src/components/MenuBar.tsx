@@ -57,7 +57,8 @@ export const MenuBar: React.FC<LanguageSelectorProps> = ({ changeLanguage,select
                             </li>
 
                             <li onClick={() => changeLanguage('vue')}
-                             className="cursor-pointer"
+                             className={`h-9 cursor-pointer ${selectedLanguage === 'vue' && 'border-b-2 border-[#ac3feb]' }`}
+                          
                             data-tooltip-id="vue"
                              data-tooltip-content="Vue"
                              data-tooltip-place="top">

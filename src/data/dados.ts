@@ -55,12 +55,19 @@
         thumb : logo,
         descricao:  "CineFinder é uma plataforma intuitiva e interativa dedicada à busca e descoberta de filmes e séries, alimentada pela poderosa API do TMDb (The Movie Database). Desenvolvido com React e JavaScript, tecnologias usadas, Fetch API, React Components, React Lazy e Suspense e React Router."
     },
-     {
+    {
         id: 7 ,
         tipo: "vue",
-        url : "https://taskmanager-ebon.vercel.app/",
+        url : "https://space-five-gray.vercel.app/home",
         thumb : Vue,
-        descricao:  "Task Manager com Vue."
+        descricao:  "Este site foi desenvolvido como parte de um desafio de front-end, utilizando tecnologias modernas e eficientes para garantir uma experiência de usuário suave e atraente. As ferramentas e linguagens utilizadas incluem: Vue.js, Tailwind CSS, JSON, TypeScript"
+    },
+    {
+        id: 8 ,
+        tipo: "html",
+        url : "https://pokedex-two-lac.vercel.app/index.html",
+        thumb : html,
+        descricao:  "Este projeto de Pokédex foi desenvolvido como parte de um desafio de front-end. Features, informações detalhadas sobre Pokémon, busca, duelos e adição à coleção pessoal. Utiliza HTML,CSS,API,JS."
     },
 
 ]
