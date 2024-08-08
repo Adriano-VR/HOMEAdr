@@ -2,7 +2,8 @@
    import html from "../assets/html.png";
    import native from "../assets/native.png";
    import Vue from "../assets/vue.png"
-   
+   import Angular from "../assets/angular.png"
+
    interface props {
         id: number;
         tipo:string;
@@ -68,6 +69,13 @@
         url : "https://pokedex-two-lac.vercel.app/index.html",
         thumb : html,
         descricao:  "Este projeto de Pokédex foi desenvolvido como parte de um desafio de front-end. Features, informações detalhadas sobre Pokémon, busca, duelos e adição à coleção pessoal. Utiliza HTML,CSS,API,JS."
+    },
+    {
+        id: 9 ,
+        tipo: "angular",
+        url : "https://e-commerce-page-angular.vercel.app/",
+        thumb : Angular,
+        descricao: "ecommerce-product-page "
     },
 
 ]

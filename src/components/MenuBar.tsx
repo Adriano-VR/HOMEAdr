@@ -3,6 +3,7 @@ import { IconContext } from "react-icons";
 import { FaHtml5 } from "react-icons/fa";
 import { TbBrandReactNative } from "react-icons/tb";
 import { RiVuejsLine } from "react-icons/ri";
+import { FaAngular } from "react-icons/fa";
 
 import { Tooltip } from 'react-tooltip'
 import git from "../assets/github.png";
@@ -65,6 +66,19 @@ export const MenuBar: React.FC<LanguageSelectorProps> = ({ changeLanguage,select
                                 <IconContext.Provider value={{color:'#F5B061', size:"2em" }}>
                                 <RiVuejsLine />
                                 <Tooltip id="vue" />
+                                </IconContext.Provider>
+                            </li>
+
+                            <li onClick={() => changeLanguage('angular')}
+                             className={`h-9 cursor-pointer ${selectedLanguage === 'angular' && 'border-b-2 border-[#38ce8f]' }`}
+                          
+                            data-tooltip-id="angular"
+                             data-tooltip-content="angular"
+                             data-tooltip-place="top">
+                                <IconContext.Provider value={{color:'#F5B061', size:"2em" }}>
+                                <FaAngular />
+
+                                <Tooltip id="angular" />
                                 </IconContext.Provider>
                             </li>
 
