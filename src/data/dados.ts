@@ -17,7 +17,7 @@
     {
         id: 1,
         tipo: "react",
-        url : "https://projeto-react-com-ts-api-gamerpower-2dtolv02i.vercel.app/",
+        url : "https://projeto-react-com-ts-api-gamerpower.vercel.app/",
         thumb : logo,
         descricao: "Ele faz uso de APIs do Tailwind CSS, Firebase para autenticação, cadastro de usuário e salvamento de jogos favoritos do usuário logado, além de ter funcionalidades de filtros e pesquisa."
     },
