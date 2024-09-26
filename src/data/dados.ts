@@ -52,7 +52,7 @@
     {
         id: 6,
         tipo: "react",
-        url : "https://cine-finder-lemon.vercel.app/filmes",
+        url : "https://cine-finder-nine.vercel.app/filmes",
         thumb : logo,
         descricao:  "CineFinder é uma plataforma intuitiva e interativa dedicada à busca e descoberta de filmes e séries, alimentada pela poderosa API do TMDb (The Movie Database). Desenvolvido com React e JavaScript, tecnologias usadas, Fetch API, React Components, React Lazy e Suspense e React Router."
     },
